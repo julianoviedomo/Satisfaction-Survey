@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #024959
+}
+
+/* Tile Section */
+
+.title-section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color:#F2E3D5
+}
+
+#description {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    color: #3CA6A6;
+}
+
+/* Container */
+
+.container {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+/* Section Indicator */
+
+.section-indicator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+
+.section-index {
+    /* Font Configuration*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #F2E3D5;
+    /* Background */ 
+    width: 44px;
+    height: 44px;
+    background: #012E40;
+    border-radius: 50px;
+    /* General Configuration */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-name {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    color: #F2E3D5;
+}
+
+/* Question Container */
+
+.question {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #012E40;
+    padding-left: 24px;
+}
+
+.questions-container {
+    /* Background */
+    background-color: #F2E3D5;
+    border-radius: 30px;
+    /* General Configuration */
+    width: 921px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 50px;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+/* Section - ABOUT YOU */
+
+#name-label, #email-label, #number-label {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+#name, #email, #number, input {
+    box-sizing: border-box;
+    background-color: rgba(60, 166, 166, 0.3);
+    border: 2px solid #026773;
+    border-radius: 20px;
+    height: 50px;
+}
+
+#name, #email, #number, placeholder {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: #012E40;
+    padding-left: 24px;
+}
+
+/* Section - WHAT SERVICE DO YOU WANT TO RATE? */
+
+#drop-label {
+    width: 95%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+select {
+    box-sizing: border-box;
+    background: rgba(60, 166, 166, 0.3);
+    border: 2px solid #026773;
+    border-radius: 20px;
+    height: 50px;
+    /* Font Configuration*/
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: #012E40;
+}
+
+option {
+    /* Font Configuration*/
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F2E3D5;
+    /* General Configuration*/
+    background-color: #024959;
+    width: 100%;
+    height: 40px;
+    padding: 2px;
+}
+
+/* Section - RATE THE SERVICE */
+
+.rate-question {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.rate-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rate-answer {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #012E40;
+}
+
+.inline {
+    position: inherit;
+    width: 14px;
+    margin: 0 0.8em 0 0;
+    vertical-align: middle;
+}
+
+/* Section - WHO PARTICIPATED IN YOUR SERVICE? */
+
+.team-members {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Font Configuration*/
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #012E40;
+}
+
+.team-members-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inline-checkbox {
+    position: inherit;
+    width: 14px;
+    margin: 0 0.8em 0 0;
+    padding-left: 24px;
+    vertical-align: middle;
+}
+
+/* Section - ANY COMMENTS OR SUGGESTIONS? */
+
+#comments {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+textarea {
+    box-sizing: border-box;
+    background: rgba(60, 166, 166, 0.3);
+    border: 2px solid #026773;
+    border-radius: 20px;
+}
+
+textarea, placeholder {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: #012E40;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+/* Submit */
+
+.submit-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#submit {
+    width:500px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #3CA6A6;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #012E40;
+}
